@@ -1,0 +1,227 @@
+{
+    "workbench.colorTheme": "Aura Dark",
+    "editor.minimap.enabled": true,
+    "terminal.integrated.fontWeight": "1",
+    "editor.fontFamily": "'Fira Code', 'Consolas', 'Courier New', monospace",
+    "editor.fontSize": 18,
+    "editor.tabSize": 4,
+    "editor.fontWeight": "1",
+    "workbench.editor.showTabs": "multiple",
+    "workbench.colorCustomizations":
+    {
+      "editorCursor.foreground": "#d748b8",
+      "editor.lineHighlightBackground": "#8a43945f",
+      "editor.lineHighlightBorder": "#00e1ff5f"
+    },
+    "workbench.statusBar.visible": true,
+    "editor.lineNumbers": "on",
+    "editor.cursorStyle": "line",
+    "window.zoomLevel": 0,
+    "editor.tabCompletion": "on",
+    "todohighlight.isEnable": true,
+    "todohighlight.keywords": [
+      {
+        "text": "TODO:",
+        "color": "#ff0000",
+        "backgroundColor": "rgba(0,0,0,0)"
+      },
+      {
+        "text": "HACK:",
+        "color": "#ff6600",
+        "backgroundColor": "rgba(0,0,0,0)"
+      },
+      {
+        "text": "NOTE:",
+        "color": "#b348d7",
+        "backgroundColor": "rgba(0,0,0,0)"
+      },
+      {
+        "text": "WARNING:",
+        "color": "yellow",
+        "backgroundColor": "rgba(0,0,0,0)"
+      },
+      {
+        "text": "KEEP:",
+        "color": "#12b6a5",
+        "backgroundColor": "rgba(0,0,0,0)"
+      }
+    ],
+    "todohighlight.defaultStyle":
+    {
+      "color": "red",
+      "backgroundColor": "#ffab00",
+      "overviewRulerColor": "rgba(0,0,0,0)",
+      "isWholeLine": false
+    },
+    "psi-header.config":
+    {
+          "forceToTop": true,
+          "blankLinesAfter": 1,
+          "spacesBetweenYears": false,
+          "license": "Open",
+          "author": "Dracken24",
+          "initials": "NaD",
+          "authorEmail": "dracken24@gmail.com",
+          "creationDateZero": "asIs",
+          "hostname": "dracken24",
+      },
+      "psi-header.changes-tracking":
+      {
+          "isActive": true,
+          "modAuthor": "Modified By:",
+          "modDate": "Last Modified:",
+          "modDateFormat": "dd/MM/yyyy hh:nn:ss",
+          "include": [],
+          "includeGlob": [],
+          "exclude": ["markdown", "json", "jsonc", "shellscript"],
+          "excludeGlob": ["./**/*/ignoreme.*"],
+          "autoHeader": "autoSave",
+          // "enforceHeader": true,
+          "replace": [
+              "Filename:",
+              "Project"
+          ],
+          "updateLicenseVariables": false
+      },
+      "psi-header.lang-config": [
+          {
+              "language": "*",
+              "begin": "/*",
+              "end": "*/",
+              "prefix": "/* ",
+              "suffix": "*/",
+              "lineLength": 85,
+              "lineEnding": "lf"
+          }
+      ],
+      "psi-header.variables": [
+          ["author", "Dracken24"],
+          ["createdate", "<<dateformat('DD-Mo-yyyy')>>"],
+          ["moddate", "<<dateformat('DD-Mo-yyyy')>>"],
+          ["modauthor", "<<author>>"]
+      ],
+      "psi-header.templates": [
+          {
+              "language": "*",
+              "template": [
+                  "===============================================================================",
+                  "---~---~---~---~---~---~---~---~---~---~---~---~---~---~---~---~---~---~---~---",
+                  "              -------------------------------------------------",
+                  "               PROJET: Vulkan Engine   PAR: <<author>>",
+                  "              -------------------------------------------------",
+                  "               CREATED: <<createdate>>",
+                  "               MODIFIED BY: <<author>>",
+                  "               LAST MODIFIED: <<moddate>>",
+                  "              -------------------------------------------------",
+                  "               FILE: <<filename>>",
+                  "              -------------------------------------------------",
+                  "---~---~---~---~---~---~---~---~---~---~---~---~---~---~---~---~---~---~---~---",
+                  "===============================================================================",
+                  ""
+              ]
+          }
+      ],
+    "cmake.sourceDirectory": "/home/dracken24/prog/vlukan_project/libraries/extern/GLM",
+    "files.associations":
+    {
+      "stdio.h": "c",
+      "logger.h": "c",
+      "temp_for_build.h": "c",
+      "drackengine_lib.h": "c",
+      "defines.h": "c",
+      "colors.h": "c",
+      "raylib.h": "c",
+      "input.h": "c",
+      "array": "c",
+      "dmemory.h": "c",
+      "engine_defines.h": "c",
+      "*.tcc": "c",
+      "memory_resource": "c",
+      "compare": "c",
+      "functional": "c",
+      "tuple": "c",
+      "type_traits": "c",
+      "utility": "c",
+      "engine.h": "c",
+      "buttons.h": "c",
+      "launcher.h": "c",
+      "types.h": "c",
+      "signal.h": "c",
+      "wait.h": "c",
+      "stdlib.h": "c",
+      "signal_ext.h": "c",
+      "libft.h": "c",
+      "windows_utility.h": "c",
+      "menus.h": "c",
+      "struct_globale.h": "c",
+      "stdarg.h": "c",
+      "rlgl.h": "c",
+      "raygizmo.h": "c",
+      "cjson.h": "c",
+      "raymath.h": "c",
+      "fcntl.h": "c",
+      "tinyfiledialogs.h": "c",
+      "window07.h": "c",
+      "file_dialog.h": "c",
+      "stat.h": "c",
+      "typeinfo": "c",
+      "random": "c",
+      "system_error": "c",
+      "atomic": "cpp",
+      "bit": "cpp",
+      "cctype": "cpp",
+      "charconv": "cpp",
+      "clocale": "cpp",
+      "cmath": "cpp",
+      "concepts": "cpp",
+      "cstdarg": "cpp",
+      "cstddef": "cpp",
+      "cstdint": "cpp",
+      "cstdio": "cpp",
+      "cstdlib": "cpp",
+      "cstring": "cpp",
+      "ctime": "cpp",
+      "cwchar": "cpp",
+      "cwctype": "cpp",
+      "deque": "cpp",
+      "map": "cpp",
+      "set": "cpp",
+      "string": "cpp",
+      "unordered_map": "cpp",
+      "vector": "cpp",
+      "exception": "cpp",
+      "expected": "cpp",
+      "algorithm": "cpp",
+      "iterator": "cpp",
+      "memory": "cpp",
+      "numeric": "cpp",
+      "optional": "cpp",
+      "ratio": "cpp",
+      "string_view": "cpp",
+      "format": "cpp",
+      "initializer_list": "cpp",
+      "iosfwd": "cpp",
+      "iostream": "cpp",
+      "istream": "cpp",
+      "limits": "cpp",
+      "new": "cpp",
+      "numbers": "cpp",
+      "ostream": "cpp",
+      "semaphore": "cpp",
+      "span": "cpp",
+      "sstream": "cpp",
+      "stdexcept": "cpp",
+      "stop_token": "cpp",
+      "streambuf": "cpp",
+      "thread": "cpp",
+      "cinttypes": "cpp",
+      "variant": "cpp",
+      "*.m": "cpp",
+      "iomanip": "cpp"
+    },
+    "C_Cpp.default.includePath": [
+        "${default}",
+        "C:/MinGW/include",  // Ajustez ce chemin selon votre installation
+        "C:/MinGW/lib/gcc/mingw32/*/include/c++"  // Ajustez la version (*) selon votre installation
+    ]
+  }
