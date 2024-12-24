@@ -16,3 +16,6 @@ https://www.glfw.org/
 
 3. GLM:
 https://glm.g-truc.net/0.9.9/
+
+4. Install -lglfw
+sudo apt-get install libglfw3-dev

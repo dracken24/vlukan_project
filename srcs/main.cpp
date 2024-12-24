@@ -13,14 +13,18 @@
 /* =============================================================================== */
 
 #include <iostream>
+#define GLFW_INCLUDE_VULKAN
+// #include <vulkan/vulkan.h>
+#include <GLFW/glfw3.h>
+#define GLM_FORCE_RADIANS
+#define GLM_FORCE_DEPTH_ZERO_TO_ONE
+#include <GLM/glm.hpp>
+#include <GLM/mat4x4.hpp>
 
 int main(int argc, char ** argv, char ** env)
 {
-	(void)argc;
-	(void)argv;
-	(void)env;
-
-	std::cout << "Yo Bitch !! " << std::endl;
+	// std::cout << "Yo Bitch !! " << std::endl;
+	glfwInit();
 
 	return 0;
 }

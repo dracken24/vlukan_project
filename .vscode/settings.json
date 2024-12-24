@@ -223,5 +223,7 @@
         "${default}",
         "C:/MinGW/include",  // Ajustez ce chemin selon votre installation
         "C:/MinGW/lib/gcc/mingw32/*/include/c++"  // Ajustez la version (*) selon votre installation
-    ]
+    ],
+    "C_Cpp.default.compilerPath": "/usr/bin/g++",
+    "C_Cpp.errorSquiggles": "enabled"
   }

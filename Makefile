@@ -6,8 +6,12 @@ OBJS = srcs/main.cpp
 CXX = g++
 
 # Flags
-CXXFLAGS = -Wall -Wextra -Werror -std=c++17
+# CXXFLAGS = -Wall -Wextra -Werror -std=c++17
+CXXFLAGS = -std=c++17
 CXXFLAGS += -I/usr/include/vulkan -L/usr/lib/x86_64-linux-gnu -lvulkan
+CXXFLAGS += -I$(PWD)/libraries/extern
+CXXFLAGS += -I/usr/include/GLFW
+CXXFLAGS += -lglfw
 
 # Directories
 SRCS_DIR = srcs
@@ -30,7 +34,7 @@ $(NAME): $(OBJS)
 	@echo "$(BLUE)╔═════════════════════════════════════════════════╗$(RESET)"
 	@echo "$(BLUE)║     Création de l'exécutable...                 ║$(RESET)"
 	@echo "$(BLUE)╚═════════════════════════════════════════════════╝$(RESET)"
-	$(CXX) $(OBJS) -o $(NAME)
+	$(CXX) $(OBJS) -o $(NAME) $(CXXFLAGS)
 	@echo "\n"
 
 re: fclean all
